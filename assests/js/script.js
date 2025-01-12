@@ -37,7 +37,7 @@ function handler(responseJSON){
          // ----footer-------------
          document.getElementById('footer').innerText=responseJSON.attributionText; 
 }
-fetch(`https://gateway.marvel.com/v1/public/characters?ts=2&apikey=494ed1eb931aff37808083dfe4f0d43f&hash=4999b6e62f85dd61c3aebc2b702c351ba`)
+fetch(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=aad2fb094bb0551e225ffc14d6eb36d7&hash=8378d9b8e4309b6b5d81c7cb12940182`)
 .then(res => res.json())
 .then(data => handler(data));
 })());
